@@ -106,6 +106,13 @@ class ViewController: UIViewController {
     
     
     @IBAction func expansion(_ sender: Any) {
+        timer.invalidate()
+        timer = nil
+        startOrStopButton.setImage(UIImage(systemName: "play"), for: .normal)
+        
+        nextButton.isEnabled = true
+        previousButton.isEnabled = true
+        
         self.performSegue(withIdentifier: "next", sender: nil)
     }
     
