@@ -13,6 +13,7 @@
 		552364F226F213A2004136C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552364F026F213A2004136C6 /* Main.storyboard */; };
 		552364F426F213A3004136C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552364F326F213A3004136C6 /* Assets.xcassets */; };
 		552364F726F213A3004136C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552364F526F213A3004136C6 /* LaunchScreen.storyboard */; };
+		552364FF26F2D6F4004136C6 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552364FE26F2D6F4004136C6 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		552364F326F213A3004136C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552364F626F213A3004136C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		552364F826F213A3004136C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552364FE26F2D6F4004136C6 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				552364EC26F213A2004136C6 /* SceneDelegate.swift */,
 				552364EE26F213A2004136C6 /* ViewController.swift */,
 				552364F026F213A2004136C6 /* Main.storyboard */,
+				552364FE26F2D6F4004136C6 /* NextViewController.swift */,
 				552364F326F213A3004136C6 /* Assets.xcassets */,
 				552364F526F213A3004136C6 /* LaunchScreen.storyboard */,
 				552364F826F213A3004136C6 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				552364EF26F213A2004136C6 /* ViewController.swift in Sources */,
+				552364FF26F2D6F4004136C6 /* NextViewController.swift in Sources */,
 				552364EB26F213A2004136C6 /* AppDelegate.swift in Sources */,
 				552364ED26F213A2004136C6 /* SceneDelegate.swift in Sources */,
 			);
