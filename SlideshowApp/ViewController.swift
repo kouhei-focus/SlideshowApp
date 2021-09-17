@@ -106,8 +106,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func expansion(_ sender: Any) {
-        timer.invalidate()
-        timer = nil
+        if timer != nil {
+            timer.invalidate()
+            timer = nil
+        } 
+      
         startOrStopButton.setImage(UIImage(systemName: "play"), for: .normal)
         
         nextButton.isEnabled = true
